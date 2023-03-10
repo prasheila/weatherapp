@@ -1,0 +1,62 @@
+.container{
+
+    position: relative;
+    margin-top: 300px;
+    top: 0;
+    z-index: 1000;
+    margin-left: 800px;
+    background-color:hsla(0, 100%, 90%, 0.3);
+
+    border-radius:10px ;
+    border: 2px solid red;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#locationName{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#description{
+    font-size: 25px;
+    padding-top: 10px;
+}
+#temp{
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+#subTemps{
+    padding-top: 10px;
+    font-size:15px;
+    
+}
+#windSpeed{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#map{
+    /* to fill the page */
+    height: 100vh; 
+    position: relative;
+    
+}
+
+#icon{
+    width:60px;
+    height: 60px;
+    background-repeat:no-repeat;
+
+    margin-left: 100px;
+}
